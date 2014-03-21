@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src: url('../fonts/ff-tisa-web-pro.eot');
+  src: url('../fonts/ff-tisa-web-pro.woff') format('woff'), url('../fonts/ff-tisa-web-pro.ttf') format('truetype'), url('../fonts/ff-tisa-web-pro.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'ff-tisa-web-pro', 'Georgia', 'Times New Roman', serif;
+}
+
+.container {
+  width: 96%;
+  max-width: 920px;
+  margin: auto;
+  padding: 2px;
+}
+
+.site {
+  color: #383838;
+  padding-top: 40px;
+}
+
+a {
+  color: #27ae60;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Myriad Pro', 'Lucida Grande', 'Verdana', sans-serif;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.025em;
+  line-height: 1;
+  margin: 0;
+}
+
+ul.posts {
+  list-style: none inside;
+  padding: 0;
+}
+
+.posts p,
+#post p {
+  line-height: 1.6;
+}
+
+.posts a {
+  color: #333333;
+}
+
+.posts li {
+  margin-bottom: 3.5em;
+}
+
+.category {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin: 0.5em 0;
+}
+
+.category h4 {
+  line-height: 0;
+  color: #b4b4b2;
+  text-transform: uppercase;
+  font-size: 0.5em;
+  letter-spacing: 0.25em;
+}
+
+.content {
+  float: right;
+  width: 68%;
+  font-size: 1.25em;
+}
+
+.about {
+  float: left;
+  width: 25%;
+  text-align: right;
+  min-width: 230px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  color: #999;
+  line-height: 1.5;
+}
+
+.about h3,
+.about a {
+  color: #27ae60;
+}
+
+.published h4 {
+  display: inline;
+  border-top: 2px solid #eee;
+  color: #70706f;
+}
+
+.published p.meta {
+  margin: 0;
+}
+
+code {
+  font-size: 0.75em;
+}
+
+@media screen and (max-width: 865px) {
+  .content, .about {
+    float: left;
+    clear: left;
+    margin: 0 0 10px;
+    width: 100%;
+  }
+
+  .about {
+    border-top: 1px solid #eee;
+    text-align: left;
+    padding: 10px;
+  }
+}
+
